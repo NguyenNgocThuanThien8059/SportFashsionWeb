@@ -1,0 +1,96 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.homepage-background {
+    background-image: url('/images/sports-gear-BG.jpg');
+    background-size: cover; /* Stretches the image while maintaining aspect ratio */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Sets the height to fill the viewport */
+    width: 100%;
+}
+.banner {
+    background-image: url('/images/sports-gear-BG.jpg');
+}
+body {
+    min-height: 100vh;
+}
+
+.footer {
+    background-color: #f8f9fa; /* Set a background color for the footer */
+    padding: 1rem;
+    text-align: center;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Align dropdown with the navbar item */
+}
+header {
+    display: flex;
+    flex-direction: column; /* Stacks the navbars vertically */
+}
+
+.navbar {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.second-navbar {
+    margin-top: 0;
+    padding-top: 0;
+    float: right;
+}
+.banner {
+    background-image: url('/images/sports-gear-BG.jpg'); /* The path to your banner image */
+    background-size: cover; /* Ensures the image covers the entire banner */
+    background-position: center; /* Centers the image within the banner */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 300px; /* 100% of the viewport height (can be adjusted) */
+    width: 100%; /* Full width of the container */
+}
+.div1 {
+    width: 50%;
+    float: left;
+}
+.div2{
+    width: 50%;
+    float: right;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    /* Flex-grow ensures this takes up remaining space between header and footer */
+    flex-grow: 1;
+}
+
+footer {
+    /* Make sure the footer stays at the bottom without blocking */
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
