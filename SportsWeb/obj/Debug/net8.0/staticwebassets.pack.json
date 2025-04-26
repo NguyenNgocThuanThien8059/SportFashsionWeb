@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SportsWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SportsWeb.3k8m6i4pm7.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\images\\banner.jpg",
+      "PackagePath": "staticwebassets\\images\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\images\\sports-gear-BG.jpg",
+      "PackagePath": "staticwebassets\\images\\sports-gear-BG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\Compression shirts.jpg",
+      "PackagePath": "staticwebassets\\product-images\\Compression shirts.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\Jerseys.jpg",
+      "PackagePath": "staticwebassets\\product-images\\Jerseys.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\Shorts.jpg",
+      "PackagePath": "staticwebassets\\product-images\\Shorts.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\SoccerShoes.png",
+      "PackagePath": "staticwebassets\\product-images\\SoccerShoes.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\Tennis Dress.png",
+      "PackagePath": "staticwebassets\\product-images\\Tennis Dress.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\Woman Hoodile.png",
+      "PackagePath": "staticwebassets\\product-images\\Woman Hoodile.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\Woman Shorts.png",
+      "PackagePath": "staticwebassets\\product-images\\Woman Shorts.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\af837421d0dd471eb01c2de695510b14_0f2d284b1bbb44c49853741ec95529ee_master.png",
+      "PackagePath": "staticwebassets\\product-images\\af837421d0dd471eb01c2de695510b14_0f2d284b1bbb44c49853741ec95529ee_master.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\ao_cam_d4a5c6e0873a4d5982f2aad3afbb9945_master (1).png",
+      "PackagePath": "staticwebassets\\product-images\\ao_cam_d4a5c6e0873a4d5982f2aad3afbb9945_master (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\db468f2f84b74e45a0043ec77b15441a_e71e04264e9843129ac18cfd1dbd49b8_master.png",
+      "PackagePath": "staticwebassets\\product-images\\db468f2f84b74e45a0043ec77b15441a_e71e04264e9843129ac18cfd1dbd49b8_master.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\moisture-wicking t-shirts.png",
+      "PackagePath": "staticwebassets\\product-images\\moisture-wicking t-shirts.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\s-l1600.png",
+      "PackagePath": "staticwebassets\\product-images\\s-l1600.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\s-l960.png",
+      "PackagePath": "staticwebassets\\product-images\\s-l960.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\Projects\\SportWeb\\SportsWeb\\SportsWeb\\wwwroot\\product-images\\xanhdamvang-oldman_2_462c88302aae46ed83f5ee1bb6dbf390_master.png",
+      "PackagePath": "staticwebassets\\product-images\\xanhdamvang-oldman_2_462c88302aae46ed83f5ee1bb6dbf390_master.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SportsWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SportsWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SportsWeb.props",
+      "PackagePath": "build\\SportsWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SportsWeb.props",
+      "PackagePath": "buildMultiTargeting\\SportsWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SportsWeb.props",
+      "PackagePath": "buildTransitive\\SportsWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

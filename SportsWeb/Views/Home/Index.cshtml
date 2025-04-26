@@ -1,0 +1,66 @@
+﻿@model IEnumerable<SportsWeb.Models.Product>
+@{
+    ViewData["Title"] = "Home Page";
+    
+}
+<div class="row banner">
+      <div class="col-md-12">
+            <div class="main_text text-center">
+                  <h1 class="text-white" style="font-size: 6rem; line-height: 1.2;">
+                            Welcome to <strong class="text-warning" style="font-size: 7rem;">D</strong><strong class="text-black" style="font-size: 7rem;">Sports</strong>
+                       </h1>
+                        <h1 class="text-white fs-2">
+                            Where we provide good sport fashion
+                  </h1>
+            </div>
+      </div>
+</div>
+<div class="container mt-5">
+    <div class="row g-4">
+        <!-- Added g-4 for consistent gutter spacing -->
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4 d-flex">
+                <!-- Ensure each column uses the grid size -->
+                <div class="card w-100">
+                    <!-- Add w-100 to force the card to take the full width -->
+                    <!-- Product Image -->
+                    <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" style="height: 200px; object-fit: cover;" />
+
+                    <div class="card-body d-flex flex-column">
+                        <!-- Product Name -->
+                        <h5 class="card-title">@product.Name</h5>
+
+                        <!-- Product Price -->
+                        <p class="card-text text-muted">$@product.Price</p>
+
+                        <!-- Button or additional details aligned at the bottom -->
+                        <div class="mt-auto">
+                            <a asp-action="Details" asp-route-id="@product.Id" asp-controller="Products" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<div class="mt-3 d-flex justify-content-center">
+    <a href="/products" class="btn btn-primary text-center">See more--></a>
+</div>
+<div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+            <div class="about_img">
+                <figure><img src="images/about-img.jpg" alt="#" style="height: 500px; width: 450px"/></figure>
+            </div>
+        </div>
+        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 pa-ing">
+            <div class="about_text">
+                <div class="about_text_box">
+                    <h2>About<strong class="black_white">DSports</strong></h2>
+                    <p>A store which sold a bunch of fashion sports for you all to pick. There are a veriety of T-shirts, shorts, shoes and many more....</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+﻿@model SportsWeb.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container">
+    <h1>Product Details</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model.ImageUrl" alt="Product Image" class="img-fluid" style="max-width:100%; height:auto;" />
+        </div>
+        <div class="col-md-6">
+            <h4>Product Information</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+                <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.Price)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.Price) ($)
+                </dd>
+                <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+                <dt class="col-sm-4">
+                    Categories
+                </dt>
+                <dd class="col-sm-8">
+                    <div class="d-flex flex-wrap">
+                        @if (Model.ProductCategories != null && Model.ProductCategories.Any())
+                        {
+                            foreach (var category in Model.ProductCategories)
+                            {
+                                <a asp-action="Index" asp-route-categoryId="@category.Category.Id"
+                                   class="border rounded p-2 m-1 bg-light text-center"
+                                   style="width: 100px; text-decoration: none; display: block;">
+                                    @category.Category.Name
+                                </a>
+                            }
+                        }
+                        else
+                        {
+                            <p>No categories assigned</p>
+                        }
+                    </div>
+                </dd>
+            </dl>
+            <div>
+                <button class="btn btn-success">Purchase</button>
+            </div>
+        </div>
+    </div>
+</div>

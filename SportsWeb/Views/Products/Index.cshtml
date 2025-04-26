@@ -1,0 +1,154 @@
+﻿@model IEnumerable<SportsWeb.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container mt-5">
+    <div class="row">
+        <!-- Left side: Categories with checkboxes -->
+        <div class="col-md-3">
+            <h4>Sort by:</h4>
+            <form method="get" action="@Url.Action("Index", "Products")">
+                @if (ViewBag.Categories != null)
+                {
+                    var count = 0;
+                    foreach (var category in ViewBag.Categories)
+                    {
+                        if(count % 2 == 0)
+                        {
+                            <div class="form-check div1 ml-5">
+                                <input class="form-check-input" type="checkbox"
+                                       value="@category.Value"
+                                       id="category_@category.Value"
+                                       name="categoryId"
+                                @(category.Selected ? "checked" : "") />
+                                <label class="form-check-label" for="category_@category.Value">
+                                    @category.Text
+                                </label>
+                            </div>
+                            count++;
+                        }
+                        else
+                        {
+                            <div class="form-check div2 ml-5">
+                                <input class="form-check-input" type="checkbox"
+                                       value="@category.Value"
+                                       id="category_@category.Value"
+                                       name="categoryId"
+                                @(category.Selected ? "checked" : "") />
+                                <label class="form-check-label" for="category_@category.Value">
+                                    @category.Text
+                                </label>
+                            </div>
+                            count++;
+                        }
+
+                    }
+                }
+                <button type="submit" class="btn btn-primary mt-3">Apply Filters</button>
+            </form>
+        </div>
+
+        <!-- Right side: Product list -->
+        <div class="col-md-9">
+            <div class="row g-4">
+                <!-- Loop through products and display them in cards -->
+                @foreach (var product in Model)
+                {
+                    <div class="col-md-4 d-flex">
+                        <!-- Ensure each column uses the grid size -->
+                        <div class="card w-100">
+                            <!-- Add w-100 to force the card to take the full width -->
+                            <!-- Product Image -->
+                            <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" style="height: 200px; object-fit: cover;" />
+
+                            <div class="card-body d-flex flex-column">
+                                <!-- Product Name -->
+                                <h5 class="card-title">@product.Name</h5>
+
+                                <!-- Product Price -->
+                                <p class="card-text text-muted">$@product.Price</p>
+
+                                <!-- Button or additional details aligned at the bottom -->
+                                <div class="mt-auto">
+                                    <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-primary">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <nav aria-label="Page navigation" class="mt-4">
+                <ul class="pagination justify-content-center">
+                    @if (ViewBag.CurrentPage > 1)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.CurrentPage - 1 })" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                    }
+
+                    @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                    {
+                        <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                            <a class="page-link" href="@Url.Action("Index", new { page = i })">@i</a>
+                        </li>
+                    }
+
+                    @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.CurrentPage + 1 })" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+            <div class="about_img">
+                <figure><img src="images/about-img.jpg" alt="#" style="height: 500px; width: 450px" /></figure>
+            </div>
+        </div>
+        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 pa-ing">
+            <div class="about_text">
+                <div class="about_text_box">
+                    <h2>About<strong class="black_white">DSports</strong></h2>
+                    <p>A store which sold a bunch of fashion sports for you all to pick. There are a veriety of T-shirts, shorts, shoes and many more....</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const form = document.getElementById('filterForm');
+        form.addEventListener('submit', function (e) {
+            e.preventDefault(); // Prevent the form from reloading the page
+
+            const formData = new FormData(form);
+
+            fetch(`@Url.Action("SortProducts", "Products")`, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'
+                }
+            })
+                .then(response => response.text())
+                .then(html => {
+                    const productList = document.getElementById('productList');
+                    if (productList) {
+                        productList.innerHTML = html; // Update the product list content
+                    }
+                })
+                .catch(error => console.error('Error fetching sorted products:', error));
+        });
+    });
+</script>

@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SportsWeb</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SportsWeb.styles.css" asp-append-version="true" />
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body class="@ViewData["BodyClass"]">
+    <header>
+        <!-- First Row: Logo, Search, and Login/Register -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <!-- Logo on the left -->
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/logo.png" alt="SportWeb" style="height: 40px;" />
+                </a>
+
+                <!-- Search box in the center -->
+                <form class="d-flex w-50 justify-content-center" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+                <!-- Login/Register on the right -->
+                <div class="d-sm-inline-flex">
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+
+        <!-- Second Row: Nav Items under the search bar -->
+        <nav class="navbar second-navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow">
+            <div class="container d-flex justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Product</a>
+                    </li>
+                    <li class="nav-item dropdown me-4">
+                        <a class="nav-link dropdown-toggle text-dark" role="button" aria-expanded="false" asp-area="" asp-controller="Home" asp-action="Index">SportType</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Soccer (Football)</a></li>
+                            <li><a class="dropdown-item" href="#">Basketball</a></li>
+                            <li><a class="dropdown-item" href="#">Tennis</a></li>
+                            <li><a class="dropdown-item" href="#">Badminton</a></li>
+                            <li><a class="dropdown-item" href="#">Cycling</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4">
+                        <a class="nav-link dropdown-toggle text-dark" role="button" aria-expanded="false" asp-area="" asp-controller="Home" asp-action="Index">Male</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tops</a></li>
+                            <li><a class="dropdown-item" href="#">Bottoms</a></li>
+                            <li><a class="dropdown-item" href="#">Footwear</a></li>
+                            <li><a class="dropdown-item" href="#">Outerwear</a></li>
+                            <li><a class="dropdown-item" href="#">Accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Swimwear</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4">
+                        <a class="nav-link dropdown-toggle text-dark" role="button" aria-expanded="false" asp-area="" asp-controller="Home" asp-action="Index">Female</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tops</a></li>
+                            <li><a class="dropdown-item" href="#">Bottoms</a></li>
+                            <li><a class="dropdown-item" href="#">Footwear</a></li>
+                            <li><a class="dropdown-item" href="#">Outerwear</a></li>
+                            <li><a class="dropdown-item" href="#">Accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Swimwear</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4">
+                        <a class="nav-link dropdown-toggle text-dark" role="button" aria-expanded="false" asp-area="" asp-controller="Home" asp-action="Index">Equipment</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Soccer (Football)</a></li>
+                            <li><a class="dropdown-item" href="#">Basketball</a></li>
+                            <li><a class="dropdown-item" href="#">Tennis</a></li>
+                            <li><a class="dropdown-item" href="#">Badminton</a></li>
+                            <li><a class="dropdown-item" href="#">Cycling</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fui">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-light" style="position: relative;">
+        <div class="container">
+            &copy; 2024 - SportWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
