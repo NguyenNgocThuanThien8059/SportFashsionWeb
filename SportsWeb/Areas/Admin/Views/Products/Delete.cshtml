@@ -1,0 +1,61 @@
+﻿@model SportsWeb.Models.Product
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h1 class="text-center text-danger">Delete Product</h1>
+
+            <div class="card">
+                <div class="card-body">
+                    <h4>Product Details</h4>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-3">Name</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Name)</dd>
+
+                        <dt class="col-sm-3">Price</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Price)</dd>
+
+                        <dt class="col-sm-3">Description</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Description)</dd>
+
+                        <dt class="col-sm-3">Product Image</dt>
+                        <dd class="col-sm-9">
+                            <img src="@Model.ImageUrl" alt="Product Image" style="max-width: 200px;" />
+                        </dd>
+
+                        <dt class="col-sm-3">Categories</dt>
+                        <dd class="col-sm-9" style="color: black;">
+                            @if (Model.ProductCategories != null && Model.ProductCategories.Any())
+                            {
+                                <ul>
+                                    @foreach (var category in Model.ProductCategories)
+                                    {
+                                        <li>@category.Category.Name</li>
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <p>No categories assigned</p>
+                            }
+                        </dd>
+                    </dl>
+
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="Id" />
+                        <div class="form-group text-center">
+                            <input type="submit" value="Delete" class="btn btn-danger" /> |
+                            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
